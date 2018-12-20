@@ -28,10 +28,17 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.designbest.lambiente"
         },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.designbest.lambiente"
+        },
         "phonegap-plugin-push": {
             "SENDER_ID": "xxxxx",
             "PACKAGE_NAME": "com.designbest.lambiente"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.designbest.lambiente"
+        }
+    }
 }

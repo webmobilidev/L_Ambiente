@@ -34,6 +34,10 @@
         <param name="ios-package" value="CDVStatusBar" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="SocialSharing">
+        <param name="ios-package" value="SocialSharing" />
+        <param name="onload" value="true" />
+    </feature>
     <name>L'Ambiente</name>
     <description>
 Questa applicazione ti permette di portare sempre con te, sul tuo Smartphone o Tablet, il catalogo d'arredamento di L’Ambiente, il tuo negozio di fiducia di design a Motta Di Livenza (TV), Oderzo (TV), San Donà Di Piave (VE), Mestre (VE), Busche di Cesiomaggiore (BL) e Pordenone (PN).
@@ -61,6 +65,11 @@ Con la gallery guarda il prodotto d'arredo da te selezionato nei minimi dettagli
     </config-file>
     <config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist">
         <false />
+    </config-file>
+    <config-file parent="LSApplicationQueriesSchemes" platform="ios" target="*-Info.plist">
+        <array>
+            <string>whatsapp://</string>
+        </array>
     </config-file>
     <icon height="29" platform="ios" src="www/res/icons/ios/icon-small.png" width="29" />
     <icon height="58" platform="ios" src="www/res/icons/ios/icon-small-2x.png" width="58" />
